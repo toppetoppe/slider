@@ -142,15 +142,15 @@ input[type=range].slider {
 
   @mixin thumb-base() {
     border-radius: 50%;
-    height: calc(var(--height) * 2.33);
-    width: calc(var(--height) * 2.33);
+    height: 26px;
+    width: 26px;
     background-color: #FFF;
     // border: calc(var(--height) / 2) solid $text;
     box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
     transform: translateZ(0);
     transition: (0.233s / 2) ease-in-out;
     box-sizing: border-box;
-
+    border: 1px solid #95989A;
     &:hover {
       transform: scale(1.25);
     }
