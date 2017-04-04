@@ -218,7 +218,6 @@ input[type=range].slider {
     $color: nth($pair, 1);
     &.is-#{$name} {
       &::-webkit-slider-thumb {
-        border-color: $color;
       }
       &::-webkit-slider-runnable-track {
         --track-background: linear-gradient(to right, transparent var(--low), $color calc(0%),  $color var(--high), transparent calc(0%)) no-repeat 0 100%;
