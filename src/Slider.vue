@@ -145,7 +145,7 @@ input[type=range].slider {
     height: calc(var(--height) * 2.33);
     width: calc(var(--height) * 2.33);
     background-color: #FFF;
-    border: calc(var(--height) / 2) solid $text;
+    // border: calc(var(--height) / 2) solid $text;
     box-shadow: 0 2px 3px rgba(17, 17, 17, 0.1);
     transform: translateZ(0);
     transition: (0.233s / 2) ease-in-out;
